@@ -143,7 +143,6 @@
   # networking.extraHosts = let
   #   hostsPath = https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts;
   #   hostsFile = builtins.fetchurl hostsPath;
-  #   sha256 = "00000000000000000000000000000000000000000000000000000000";
   # in builtins.readFile "${hostsFile}";
 
   # fonts.fonts = with pkgs; [
@@ -180,4 +179,10 @@
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "22.05"; # Did you read the comment?
 
+  nix = {
+    package = pkgs.nixFlakes;
+    extraOptions = "experimental-features = nix-command flakes";
+  };
+
 }
+
