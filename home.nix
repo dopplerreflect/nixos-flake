@@ -5,9 +5,16 @@
   home.homeDirectory = "/home/doppler";
 
   home.packages = with pkgs; [
-    btop
     alacritty
+    bitwarden
+    btop
+    firefox
+    gimp
     google-chrome
+    imagemagick
+    inkscape
+    slack
+    vscode
   ];
 
   home.stateVersion = "22.05";

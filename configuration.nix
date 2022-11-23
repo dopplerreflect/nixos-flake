@@ -101,22 +101,9 @@
     description = "doppler";
     extraGroups = [ "networkmanager" "wheel" "libvirtd" "plugdev" ];
     shell = pkgs.zsh;
-    packages = with pkgs; [
-      alacritty
-      bitwarden
-      btop
-      firefox
-      gimp
-      google-chrome
-      gqrx
-      imagemagick
-      inkscape
-      slack
-      vscode
-    ];
   };
 
-  # List packages installed in system profile. To search, run:
+  # # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     deno
@@ -127,10 +114,9 @@
     imv
     mpv
     nodejs
-    pkgs.gnome.dconf-editor
-    pkgs.gnome3.gnome-tweaks
-    pkgs.heroku
-    pkgs.sass
+    gnome.dconf-editor
+    gnome3.gnome-tweaks
+    heroku
     python3
     unzip
     vim
