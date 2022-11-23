@@ -84,13 +84,8 @@
     theme = "agnoster";
   };
 
-  # programs.sway = {
-  #   enable = true;
-  #   extraPackages = with pkgs; [ i3status-rust rofi ];
-  # };
-
   # Enable RTL-SDR
-  hardware.rtl-sdr.enable = true;
+  # hardware.rtl-sdr.enable = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
@@ -123,20 +118,6 @@
     virt-manager
     yarn
   ];
-
-  # try to use a hosts file to block ads and shit.
-  # https://github.com/StevenBlack/hosts#nixos
-  # networking.extraHosts = let
-  #   hostsPath = https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts;
-  #   hostsFile = builtins.fetchurl hostsPath;
-  # in builtins.readFile "${hostsFile}";
-
-  # fonts.fonts = with pkgs; [
-  #   noto-fonts
-  #   noto-fonts-emoji
-  #   fira-code
-  #   fira-code-symbols
-  # ];
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
@@ -171,4 +152,3 @@
   };
 
 }
-
