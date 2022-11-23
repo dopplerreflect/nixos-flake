@@ -27,6 +27,12 @@
       plugins = [ "git" ];
       theme = "agnoster";
     };
+    zplug = {
+      enable = true;
+      plugins = [
+        { name = "zsh-users/zsh-autosuggestions"; } # Simple plugin installation
+      ];
+    };
   };
 
   dconf.settings = {
