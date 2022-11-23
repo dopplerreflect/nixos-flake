@@ -92,22 +92,6 @@
   # # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    deno
-    ffmpeg
-    gcc
-    git
-    gnumake
-    imv
-    mpv
-    nodejs
-    gnome.dconf-editor
-    gnome3.gnome-tweaks
-    heroku
-    python3
-    unzip
-    vim
-    virt-manager
-    yarn
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
