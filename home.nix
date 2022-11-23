@@ -17,6 +17,20 @@
     vscode
   ];
 
+  home.file = {
+    ".config/alacritty/alacritty.yml".text = ''
+      {
+        "window": {
+          "opacity": 0.8
+        },
+        "key_bindings": [
+          { "key": "F", "mods": "Command|Control", "action": "ToggleFullscreen" },
+          { "key": "W", "mods": "Command", "action": "CreateNewWindow" }
+        ]
+      }
+    '';
+  };
+  
   programs.zsh = {
     enable = true;
     enableCompletion = true;
