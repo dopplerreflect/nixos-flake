@@ -15,6 +15,18 @@
     ".config/alacritty/alacritty.yml".text = builtins.readFile ./config/alacritty/alacritty.yml;
   };
   
+  programs.git = {
+    enable = true;
+    userName = "David Rose";
+    userEmail = "doppler@gmail.com";
+    aliases = {
+      co = "checkout";
+      st = "status";
+      br = "branch";
+      ci = "commit";
+    };
+  };
+  
   programs.zsh = {
     enable = true;
     enableCompletion = true;
