@@ -19,17 +19,6 @@
 
   home.file = {
     ".config/alacritty/alacritty.yml".text = builtins.readFile ./config/alacritty/alacritty.yml;
-    # ".config/alacritty/alacritty.yml".text = ''
-    #   {
-    #     "window": {
-    #       "opacity": 0.8
-    #     },
-    #     "key_bindings": [
-    #       { "key": "F", "mods": "Command|Control", "action": "ToggleFullscreen" },
-    #       { "key": "W", "mods": "Command", "action": "CreateNewWindow" }
-    #     ]
-    #   }
-    # '';
   };
   
   programs.zsh = {
@@ -46,6 +35,13 @@
     };
   };
 
+  dconf.settings = {
+    "org/gnome/desktop/background" = {
+      picture-uri = "file:///home/doppler/flake/Metatron.png";
+      picture-uri-dark = "file:///home/doppler/flake/Metatron.png";
+      picture-options = "zoom";
+    };
+  };
   home.stateVersion = "22.05";
 
 }
