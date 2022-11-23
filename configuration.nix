@@ -75,15 +75,6 @@
   virtualisation.libvirtd.enable = true;
   programs.dconf.enable = true;
 
-  # Enable zsh with OhMyZsh
-  programs.zsh.enable = true;
-
-  programs.zsh.ohMyZsh = {
-    enable = true;
-    plugins = [ "git" ];
-    theme = "agnoster";
-  };
-
   # Enable RTL-SDR
   # hardware.rtl-sdr.enable = true;
 
