@@ -5,9 +5,9 @@
   home.homeDirectory = "/home/doppler";
 
   home.packages = with pkgs; [
-    alacritty bitwarden btop deno ffmpeg firefox gcc gimp git 
-    gnome.dconf-editor gnome3.gnome-tweaks gnumake google-chrome 
-    heroku imagemagick imv inkscape mpv nodejs python3 slack unzip 
+    alacritty bitwarden btop deno ffmpeg firefox gimp git 
+    gnome.dconf-editor gnome3.gnome-tweaks google-chrome 
+    heroku imagemagick imv inkscape mpv nodejs slack unzip 
     vim virt-manager vscode yarn
   ];
 
