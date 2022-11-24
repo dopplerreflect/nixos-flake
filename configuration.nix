@@ -56,6 +56,8 @@
   security.sudo.wheelNeedsPassword = false;
   nixpkgs.config.allowUnfree = true;
 
+  nixpkgs.config.permittedInsecurePackages = [ "googleearth-pro-7.3.4.8248" ];
+
   nix = {
     package = pkgs.nixFlakes;
     extraOptions = "experimental-features = nix-command flakes";

@@ -6,11 +6,11 @@
 
   home.packages = with pkgs; [
     alacritty bitwarden btop deno ffmpeg firefox gimp git 
-    gnome.dconf-editor gnome3.gnome-tweaks google-chrome 
-    heroku imagemagick imv inkscape mpv nodejs slack unzip 
-    vim virt-manager vscode yarn
+    gnome.dconf-editor gnome3.gnome-tweaks google-chrome googleearth-pro 
+    heroku imagemagick imv inkscape mpv neofetch nodejs ripgrep slack unzip 
+    vim virt-manager vscode yarn youtube-dl
   ];
-
+  
   home.file = {
     ".config/alacritty/alacritty.yml".text = builtins.readFile ./config/alacritty/alacritty.yml;
   };
@@ -42,7 +42,7 @@
     zplug = {
       enable = true;
       plugins = [
-        { name = "zsh-users/zsh-autosuggestions"; } # Simple plugin installation
+        { name = "spwhitt/nix-zsh-completions"; }
       ];
     };
   };
