@@ -51,6 +51,10 @@
     vim
   ];
 
+  fonts.fonts = with pkgs; [
+    (nerdfonts.override { fonts = [ "FiraCode" ]; })
+  ];
+
   system.stateVersion = "22.05"; # Did you read the comment?
 
   security.sudo.wheelNeedsPassword = false;
