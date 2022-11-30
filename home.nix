@@ -9,6 +9,7 @@
     bitwarden
     btop
     deno
+    discord
     ffmpeg
     firefox
     gimp
