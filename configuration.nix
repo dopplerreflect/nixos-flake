@@ -13,7 +13,7 @@
   networking.hostName = "nixos"; # Define your hostname.
   networking.networkmanager.enable = true;
 
-  time.timeZone = "America/New_York";
+  time.timeZone = "America/Chicago";
   i18n.defaultLocale = "en_US.utf8";
   console.keyMap = "dvorak";
 
