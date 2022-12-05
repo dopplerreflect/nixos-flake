@@ -24,6 +24,7 @@
     inkscape
     mpv
     neofetch
+    nmap
     nodejs
     ripgrep
     slack
