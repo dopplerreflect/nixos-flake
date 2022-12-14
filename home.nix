@@ -26,6 +26,7 @@
     neofetch
     nmap
     nodejs
+    realvnc-vnc-viewer
     ripgrep
     slack
     unzip
