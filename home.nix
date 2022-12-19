@@ -28,6 +28,7 @@
     nodejs
     realvnc-vnc-viewer
     ripgrep
+    rpi-imager
     slack
     unzip
     vim
