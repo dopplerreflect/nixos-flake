@@ -22,6 +22,7 @@
     imagemagick
     imv
     inkscape
+    miller # miller text parser thing https://miller.readthedocs.io/en/latest/
     mpv
     neofetch
     nmap
