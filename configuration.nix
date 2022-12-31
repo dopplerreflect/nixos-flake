@@ -16,7 +16,8 @@
 
   networking.hostName = "nixos"; # Define your hostname.
   networking.networkmanager.enable = true;
-
+  networking.extraHosts = "10.42.0.1 wfbase";
+  
   time.timeZone = "America/Chicago";
   i18n.defaultLocale = "en_US.utf8";
   console.keyMap = "dvorak";
