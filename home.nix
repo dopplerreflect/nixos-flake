@@ -31,6 +31,7 @@
     ripgrep
     rpi-imager
     slack
+    tmux
     unzip
     vim
     virt-manager
