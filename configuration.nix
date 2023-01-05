@@ -43,12 +43,20 @@
   };
 
   virtualisation.libvirtd.enable = true;
+  virtualisation.docker = {
+    enable = true;
+    rootless = {
+      enable = true;
+      setSocketVariable = true;
+    };
+  };
+
   programs.dconf.enable = true;
 
   users.users.doppler = {
     isNormalUser = true;
     description = "doppler";
-    extraGroups = [ "networkmanager" "wheel" "libvirtd" "plugdev" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" "docker" ];
     shell = pkgs.zsh;
   };
 
