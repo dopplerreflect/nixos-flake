@@ -81,8 +81,10 @@
 
   dconf.settings = {
     "org/gnome/desktop/background" = {
-      picture-uri = "file:///home/doppler/flake/Metatron.png";
-      picture-uri-dark = "file:///home/doppler/flake/Metatron.png";
+      # picture-uri = "file:///home/doppler/flake/Metatron.png";
+      # picture-uri-dark = "file:///home/doppler/flake/Metatron.png";
+      picture-uri = "file:///home/doppler/flake/spiral-tile-5.svg";
+      picture-uri-dark = "file:///home/doppler/flake/spiral-tile-5.svg";
       picture-options = "zoom";
     };
   };
