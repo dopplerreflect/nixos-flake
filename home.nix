@@ -10,6 +10,7 @@
     btop
     deno
     discord
+    exiftool
     ffmpeg
     firefox
     gimp
