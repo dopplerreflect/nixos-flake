@@ -8,6 +8,7 @@
     alacritty
     bitwarden
     btop
+    bun
     deno
     discord
     exiftool
