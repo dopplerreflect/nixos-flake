@@ -29,6 +29,7 @@
     neofetch
     nmap
     nodejs
+    obs-studio
     realvnc-vnc-viewer
     ripgrep
     rpi-imager
@@ -84,8 +85,10 @@
     "org/gnome/desktop/background" = {
       # picture-uri = "file:///home/doppler/flake/Metatron.png";
       # picture-uri-dark = "file:///home/doppler/flake/Metatron.png";
-      picture-uri = "file:///home/doppler/flake/spiral-tile-5.svg";
-      picture-uri-dark = "file:///home/doppler/flake/spiral-tile-5.svg";
+      # picture-uri = "file:///home/doppler/flake/spiral-tile-5.svg";
+      # picture-uri-dark = "file:///home/doppler/flake/spiral-tile-5.svg";
+      picture-uri = "file:///home/doppler/flake/wings-2.svg";
+      picture-uri-dark = "file:///home/doppler/flake/wings-2.svg";
       picture-options = "zoom";
     };
   };
