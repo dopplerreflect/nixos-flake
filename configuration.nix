@@ -63,6 +63,9 @@
   environment.systemPackages = with pkgs; [
     vim
   ];
+  environment.variables = {
+    EDITOR = "vi";
+  };
 
   fonts.fonts = with pkgs; [
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
