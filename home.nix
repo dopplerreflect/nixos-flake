@@ -30,7 +30,7 @@
     nmap
     nodejs
     obs-studio
-    realvnc-vnc-viewer
+    # realvnc-vnc-viewer
     ripgrep
     rpi-imager
     slack
@@ -83,12 +83,8 @@
 
   dconf.settings = {
     "org/gnome/desktop/background" = {
-      # picture-uri = "file:///home/doppler/flake/Metatron.png";
-      # picture-uri-dark = "file:///home/doppler/flake/Metatron.png";
-      # picture-uri = "file:///home/doppler/flake/spiral-tile-5.svg";
-      # picture-uri-dark = "file:///home/doppler/flake/spiral-tile-5.svg";
-      picture-uri = "file:///home/doppler/flake/wings-2.svg";
-      picture-uri-dark = "file:///home/doppler/flake/wings-2.svg";
+      picture-uri = "file:///home/doppler/flake/z-wide.png";
+      picture-uri-dark = "file:///home/doppler/flake/z-wide.png";
       picture-options = "zoom";
     };
   };
