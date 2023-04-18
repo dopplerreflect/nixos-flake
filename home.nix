@@ -7,12 +7,14 @@
   home.packages = with pkgs; [
     alacritty
     bitwarden
+    blender
     btop
     bun
     deno
     discord
     exiftool
     ffmpeg
+    file
     firefox
     gimp
     git
