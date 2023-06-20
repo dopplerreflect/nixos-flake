@@ -44,7 +44,7 @@
     vscode
     yarn
     youtube-dl
-    zoom-us
+    # zoom-us
   ];
   
   home.file = {
