@@ -7,11 +7,11 @@
   home.packages = with pkgs; [
     alacritty
     bitwarden
-    blender
+    # blender
     btop
     bun
     deno
-    discord
+    # discord
     exiftool
     ffmpeg
     file
@@ -31,11 +31,11 @@
     neofetch
     nmap
     nodejs
-    obs-studio
+    # obs-studio
     # realvnc-vnc-viewer
     ripgrep
     rpi-imager
-    slack
+    # slack
     tmux
     unzip
     vim
