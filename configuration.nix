@@ -20,7 +20,7 @@
 
   networking.nameservers = [ "8.8.8.8" ];
   
-  time.timeZone = "America/Denver";
+  time.timeZone = "America/Chicago";
   i18n.defaultLocale = "en_US.utf8";
   console.keyMap = "dvorak";
 

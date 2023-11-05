@@ -8,6 +8,7 @@
     alacritty
     bitwarden
     # blender
+    brave
     btop
     bun
     deno
@@ -32,7 +33,7 @@
     nmap
     nodejs
     # obs-studio
-    # realvnc-vnc-viewer
+    realvnc-vnc-viewer
     ripgrep
     rpi-imager
     # slack
