@@ -32,7 +32,7 @@
     neofetch
     nmap
     nodejs
-    # obs-studio
+    obs-studio
     realvnc-vnc-viewer
     ripgrep
     rpi-imager
