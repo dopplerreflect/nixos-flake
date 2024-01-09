@@ -49,7 +49,7 @@
   ];
   
   home.file = {
-    ".config/alacritty/alacritty.yml".text = builtins.readFile ./config/alacritty/alacritty.yml;
+    ".config/alacritty/alacritty.toml".text = builtins.readFile ./config/alacritty/alacritty.toml;
   };
   
   programs.git = {
