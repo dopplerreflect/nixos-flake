@@ -13,6 +13,7 @@
     bun
     deno
     # discord
+    easyeffects
     exiftool
     ffmpeg
     file
