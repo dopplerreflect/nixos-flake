@@ -28,9 +28,14 @@
     enable = true;
     displayManager.gdm.enable = true;
     desktopManager.gnome.enable = true;
-    layout = "us";
-    xkbVariant = "dvorak";
-    xkbOptions = "ctrl:nocaps";
+    # layout = "us";
+    # xkbVariant = "dvorak";
+    # xkbOptions = "ctrl:nocaps";
+    xkb = {
+      layout = "us";
+      variant = "dvorak";
+      options = "ctrl:nocaps";
+    };
   };
   services.gnome.gnome-browser-connector.enable = true;
 
